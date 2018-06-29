@@ -1,0 +1,40 @@
+          (archivodeusuario)
+#Formato:
+#bandera,nombreusuario,contrasena,mailusuario,idusuario,
+
+          (usuarios)
+#Formato:
+#nombre de usuario
+#contrasena usuario
+#email de usuario
+#numero id usuario
+#*(separador de usuarios)
+
+          (temporal)
+#Formato:
+#Nombre de usuario,contraseña
+
+          (condiciones)
+#Condicion de usuario (idusuario)
+#Formato:
+#U4
+#+ (Quien le debe y cuanto)
+#ID de usuario,monto
+#...
+#- (A quien le debe y cuanto)
+#ID de usuario,monto
+#...
+#* (Marca final)
+
+      (Archivo de actividades)
+#(formato):
+#ID de actividad,letra
+#Nombre de actividad
+#+
+#ID de quien pago, monto
+#-
+#ID de quien debe, monto, val
+#...
+#(aclaracion1) letra = A si no fue saldada, letra = B si fue saldada
+#(aclaracion2) val = 1 si no se pago, val = 0 si se pago
+#*(separador)

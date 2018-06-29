@@ -1,0 +1,47 @@
+#Archivo de actividades:
+#(formato):
+#ID de actividad,letra
+#Nombre de actividad
+#+
+#ID de quien pago, monto
+#-
+#ID de quien debe, monto, val
+#...
+#(aclaracion1) letra = A si no fue saldada, letra = B si fue saldada
+#(aclaracion2) val = 1 si no se pago, val = 0 si se pago
+#*(separador)
+A1,A
+Fernet y coca
++
+U4,400
+-
+U1,100,1
+U2,100,0
+U3,100,1
+*
+A2,A
+Fernet y coca
++
+U3,400
+-
+U1,100,1
+U2,100,0
+U4,100,1
+*
+A3,A
+Fernet y coca
++
+U4,400
+-
+U1,100,1
+U2,200,0
+*
+A4,A
+Fernet y coca
++
+U2,400
+-
+U4,100,1
+U1,100,1
+U3,100,1
+*

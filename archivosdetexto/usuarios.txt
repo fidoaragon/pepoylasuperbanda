@@ -1,0 +1,26 @@
+#Formato:
+#nombre de usuario
+#contrasena usuario
+#email de usuario
+#numero id usuario
+#*(separador de usuarios)
+tomicucho
+independiente
+tomicucho@gmail.com
+U1
+*
+fidoaragon
+pegoenelpalo
+fidoaragon@gmail.com
+U2
+*
+juanimigliardo
+lopibitos
+juanimigliardo@gmail.com
+U3
+*
+fabroghilardini
+harrods
+fabroghilardini@gmail.com
+U4
+*
